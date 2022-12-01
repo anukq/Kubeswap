@@ -14,7 +14,7 @@ import { addToDeactivatedWallets, removeFromActiveWallets } from './web3/Disconn
 import { WalletModal } from './web3/WalletModal'
 
 export const Swap = () => {
-  useMetatags({ title: 'LI.FI - Swap' })
+  useMetatags({ title: 'PlanetSWH - Swap' })
   useStomt('swap')
 
   const { disconnect, account, usedWallet } = useWallet()

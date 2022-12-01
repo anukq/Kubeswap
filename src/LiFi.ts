@@ -6,7 +6,7 @@ const LiFi = new LIFI({
   apiUrl: import.meta.env.VITE_API_URL,
   rpcs: getRpcs(),
   defaultRouteOptions: {
-    integrator: 'transferto.xyz',
+    integrator: 'planetsomewhere.xyz',
   },
 })
 

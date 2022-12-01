@@ -1,4 +1,4 @@
-# transferto.xyz powered by [LI.FI](https://li.fi)
+# planetsomewhere.xyz powered by [LI.FI](https://li.fi)
 
 ## Setup
 
@@ -73,7 +73,7 @@ Follow the linked [Readme](https://github.com/lifinance/lifi-web/blob/develop/do
 Pushing code to the repository automatically triggers deployments to several environments:
 
 Branch `main`:
-- https://transferto.xyz/ (with `.env.lifinance-mainnet` configuration)
+- https://planetsomewhere.xyz/ (with `.env.lifinance-mainnet` configuration)
 
 Branch `staging`:
-- https://staging.transferto.xyz/ (with `.env.lifinance-mainnet.staging` configuration)
+- https://staging.planetsomewhere.xyz/ (with `.env.lifinance-mainnet.staging` configuration)

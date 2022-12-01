@@ -16,7 +16,7 @@ if (!rootElement) {
 const root = createRoot(rootElement)
 
 switch (import.meta.env.VITE_PACKAGE) {
-  case 'transferto.xyz':
+  case 'planetsomewhere.xyz':
   default:
     import('./App').then(({ App }) => {
       root.render(

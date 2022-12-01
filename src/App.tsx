@@ -87,7 +87,7 @@ function App() {
 
   // function widgetEmbed() {
   //   setMetatags({
-  //     title: 'LI.FI - Swap',
+  //     title: 'PlanetSWH - Swap',
   //   })
   //   const widgetConfig = {
   //     containerStyle: {
@@ -122,7 +122,7 @@ function App() {
                 <Col xs={24} sm={24} md={14} lg={14} xl={14}>
                   <div className="header-linkWrapper">
                     <Link to="/" className="wordmark">
-                      transferto.xyz
+                      planetsomewhere.xyz
                     </Link>
                     <a
                       className="header-poweredBy"
