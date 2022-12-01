@@ -70,6 +70,8 @@
     "start": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start:developBackend": "GENERATE_SOURCEMAP=false bash -ac '. .env.development.developBackend; vite'",
     "start-env": "bash -ac '. .env.${VITE_ENV}; vite'",
     "build-env": "bash -ac '. .env.${VITE_ENV}; tsc && vite build'",
