@@ -68,7 +68,7 @@ export const Swap = () => {
       languages: {
         default: 'en',
       },
-      appearance: 'light',
+      appearance: 'dark',
       disableAppearance: true,
     }
   }, [account.address, account.signer, disconnect, usedWallet?.name])
