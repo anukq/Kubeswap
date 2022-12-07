@@ -113,7 +113,7 @@ function App() {
                 position: adjustNavbar ? 'fixed' : 'absolute',
                 zIndex: 900,
                 width: '100%',
-                padding: 20,
+                padding: 0,
                 top: 0,
                 background: adjustNavbar ? 'white' : 'transparent',
               }}>
@@ -122,7 +122,7 @@ function App() {
                 <Col xs={24} sm={24} md={14} lg={14} xl={14}>
                   <div className="header-linkWrapper">
                     <Link to="/" className="wordmark">
-                      planetsomewhere.
+                      planetsomewhere.xyz
                     </Link>
                     <a
                       className="header-poweredBy"
@@ -172,7 +172,8 @@ function App() {
 
             <Content>
               <Routes>
-                <Route path="/" element={<Swap />} />
+                <Route path="/" element={<Navigate to="/swap" />} />
+
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route
                   path="/swap/*"

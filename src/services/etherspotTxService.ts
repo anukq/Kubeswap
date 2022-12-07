@@ -85,7 +85,7 @@ export const getTransferTransaction = async (
   return erc20.populateTransaction.transfer(toAddress, amount)
 }
 
-export const getFeeTransferTransactionBasedOnAmount = async (token: Token, amount: BigNumber) => {
+export const getTransferTransactionBasedOnAmount = async (token: Token, amount: BigNumber) => {
   const bigJSAmount = new BigJs(amount.toString())
   const lowBoundary = ethers.utils.parseUnits('100', token.decimals)
   const midBoundary = ethers.utils.parseUnits('3000', token.decimals)
@@ -98,11 +98,11 @@ export const getFeeTransferTransactionBasedOnAmount = async (token: Token, amoun
     feePercent = undefined
   } else if (amount.lt(midBoundary)) {
     // feePercent =
-    feePercent = new BigJs(0.005)
+    feePercent = new BigJs(0.05)
   } else if (amount.lt(highBoundary)) {
-    feePercent = new BigJs(0.003)
+    feePercent = new BigJs(0.07)
   } else {
-    feePercent = new BigJs(0.003)
+    feePercent = new BigJs(0.03)
   }
 
   const feeAmountBigJS = feePercent ? bigJSAmount.times(feePercent) : fixedFee
