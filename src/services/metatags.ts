@@ -9,14 +9,14 @@ function getDefaultValues() {
     h: 450,
   }
   const data = {
-    title: 'LI.FI',
-    description: 'Providing liquidity when and where needed',
+    title: 'PlanetSWH',
+    description: 'In a world where liquidity is a necessity, PlanetSWH is the answer.',
     url: window.location.href,
     image: defaultImage,
     lang: 'en',
     og: {
       'og:type': 'website',
-      'og:site_name': 'LI.FI',
+      'og:site_name': 'PlanetSWH',
       // og:locale - The locale these tags are marked up in. Of the format language_TERRITORY. Default is en_US.
       // og:locale:alternate - An array of other locales this page is available in.
     },

@@ -12,6 +12,7 @@ import { PoweredByLiFi } from './assets/Li.Fi/poweredByLiFi'
 import Carbon_Neutral_Protocol from './assets/misc/Carbon_Neutral_Protocol.png'
 import Claiming from './components/Claiming'
 import Dashboard from './components/Dashboard'
+import { DiscordPopup } from './components/DiscordPopup'
 import SwapCarbonOffsetEmbed from './components/EmbedViews/SwapCarbonOffsetEmbed'
 import SwapEtherspotKlimaZapEmbed from './components/EmbedViews/SwapEtherspotKlimaZapEmbed'
 import NotFoundPage from './components/NotFoundPage'
@@ -39,6 +40,7 @@ function App() {
   const location = useLocation()
   const path = usePageViews()
   const [adjustNavbar, setAdjustNavbar] = useState(location.pathname.includes('showcase'))
+  const [showDiscordPopup, setShowDiscordPopup] = useState(false)
 
   useEffect(() => {
     setAdjustNavbar(location.pathname.includes('showcase'))
@@ -46,7 +48,7 @@ function App() {
 
   function offsetCarbonEmbedView() {
     setMetatags({
-      title: 'LI.FI - Offset Carbon',
+      title: 'PlanetSWH - Offset Carbon',
     })
     return (
       <div className="lifiEmbed">
@@ -68,7 +70,7 @@ function App() {
 
   function stakeKlimaEmbedView() {
     setMetatags({
-      title: 'LI.FI - Stake Klima',
+      title: 'PlanetSWH - Stake Klima',
     })
     return (
       <div className="lifiEmbed">
@@ -115,14 +117,14 @@ function App() {
                 width: '100%',
                 padding: 0,
                 top: 0,
-                background: adjustNavbar ? 'white' : 'transparent',
+                background: adjustNavbar ? '#6247AA' : 'transparent',
               }}>
               <Row className="site-layout-menu">
                 {/* Menu */}
                 <Col xs={24} sm={24} md={14} lg={14} xl={14}>
                   <div className="header-linkWrapper">
-                    <Link to="/" className="wordmark">
-                      planetsomewhere.xyz
+                    <Link to="https://planetsomewhere.xyz" className="wordmark">
+                      Planetsomewhere.xyz
                     </Link>
                     <a
                       className="header-poweredBy"
@@ -156,9 +158,12 @@ function App() {
                           padding: '13.5px 24px 13.5px 24px',
                         }}
                         className="lifi-support-link headerIconLink lifi-header-social-links"
-                        href="https://discord.com/channels/849912621360218112/863689862514343946"
-                        target="_blank"
-                        rel="nofollow noreferrer">
+                        // href="https://discord.com/channels/849912621360218112/863689862514343946"
+                        // target="_blank"
+                        // rel="nofollow noreferrer"
+                        onClick={() => {
+                          setShowDiscordPopup(true)
+                        }}>
                         <DiscordIcon style={{ marginRight: 4 }} /> Support
                       </a>
                     </Col>
@@ -172,8 +177,7 @@ function App() {
 
             <Content>
               <Routes>
-                <Route path="/" element={<Navigate to="/swap" />} />
-
+                <Route path="/" element={<Navigate to="/#" />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route
                   path="/swap/*"
@@ -255,7 +259,7 @@ function App() {
                     path="/testnet"
                     element={() => {
                       setMetatags({
-                        title: 'LI.FI - Testnet',
+                        title: 'PlanetSWH - Testnet',
                       })
                       initStomt('swap')
                       const transferChains = getTransferChains(
@@ -283,16 +287,16 @@ function App() {
               </a>
               <a
                 className="icon-link"
-                href="https://github.com/lifinance"
+                href="https://github.com/Astrotuf/PlanetSWH"
                 target="_blank"
                 rel="nofollow noreferrer">
                 <GithubOutlined />
               </a>
               <Button
                 className="lifi-support-link"
-                href="https://discord.com/channels/849912621360218112/863689862514343946"
-                target="_blank"
-                rel="nofollow noreferrer">
+                onClick={() => {
+                  setShowDiscordPopup(true)
+                }}>
                 <DiscordIcon style={{ marginRight: 4 }} /> Support
               </Button>
             </div>
@@ -308,6 +312,8 @@ function App() {
                 <img src={Carbon_Neutral_Protocol} width="250" alt="Carbon_Neutral_Protocol" />
               </a>
             )}
+
+            <DiscordPopup show={showDiscordPopup} handleClose={() => setShowDiscordPopup(false)} />
           </Layout>
         )}
       </ChainsTokensToolsProvider>

@@ -2,7 +2,7 @@ import './index.css'
 
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 
 import analytics from './services/analytics'
 import reportWebVitals from './services/reportWebVitals'
@@ -21,9 +21,9 @@ switch (import.meta.env.VITE_PACKAGE) {
     import('./App').then(({ App }) => {
       root.render(
         <React.StrictMode>
-          <BrowserRouter>
+          <HashRouter>
             <App />
-          </BrowserRouter>
+          </HashRouter>
         </React.StrictMode>,
       )
     })

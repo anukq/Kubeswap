@@ -29,11 +29,8 @@ export const useNavConfig = () => {
       { label: <Link to="/dashboard">Dashboard</Link>, key: '/dashboard' },
       {
         label: (
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSe9fDY1zCV3vnaubD0740GHzUYcfZoiz2KK_5TIME-rnIA3sg/viewform"
-            target="_blank"
-            rel="nofollow noreferrer">
-            Developers
+          <a href="https://docs.google.com/" target="_blank" rel="nofollow noreferrer">
+            Careers
           </a>
         ),
         key: 'dev-list',
@@ -98,23 +95,16 @@ export const useNavConfig = () => {
           },
           {
             label: (
-              <a href="https://blog.li.fi/" target="_blank" rel="nofollow noreferrer">
+              <a href="https://medium.com/" target="_blank" rel="nofollow noreferrer">
                 Blog
               </a>
             ),
             key: 'blog',
           },
+
           {
             label: (
-              <a href="https://docs.li.fi/" target="_blank" rel="nofollow noreferrer">
-                Explore Docs
-              </a>
-            ),
-            key: 'docs',
-          },
-          {
-            label: (
-              <a href="https://li.fi/" target="_blank" rel="nofollow noreferrer">
+              <a href="https://planetsomewhere.com/" target="_blank" rel="nofollow noreferrer">
                 About
               </a>
             ),
@@ -122,7 +112,10 @@ export const useNavConfig = () => {
           },
           {
             label: (
-              <a href="https://github.com/lifinance" target="_blank" rel="nofollow noreferrer">
+              <a
+                href="https://github.com/Astrotuf/PlanetSWH/"
+                target="_blank"
+                rel="nofollow noreferrer">
                 Github
               </a>
             ),
@@ -142,7 +135,7 @@ export const useNavConfig = () => {
             children: [
               {
                 label: (
-                  <a href="https://li.fi/legal/privacy-policy/" target={'_blank'} rel="noreferrer">
+                  <a href="https://google.com" target={'_blank'} rel="noreferrer">
                     Privacy Policy
                   </a>
                 ),
@@ -150,18 +143,18 @@ export const useNavConfig = () => {
               },
               {
                 label: (
-                  <a href="https://li.fi/legal/imprint/" target={'_blank'} rel="noreferrer">
-                    Imprint
+                  <a
+                    href="https://li.fi/knowledge-hub/what-is-lifi/"
+                    target={'_blank'}
+                    rel="noreferrer">
+                    What is LI.FI?
                   </a>
                 ),
                 key: 'imprint',
               },
               {
                 label: (
-                  <a
-                    href="https://li.fi/legal/terms-and-conditions/"
-                    target={'_blank'}
-                    rel="noreferrer">
+                  <a href="https://google.com/" target={'_blank'} rel="noreferrer">
                     Terms & Conditions
                   </a>
                 ),

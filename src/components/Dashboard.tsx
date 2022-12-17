@@ -512,7 +512,7 @@ const calculateWalletSummary = (wallet: Wallet, totalSumUsd: BigNumber) => {
 // actual component
 const Dashboard = () => {
   useMetatags({
-    title: 'LI.FI - Dashboard',
+    title: 'PlanetSWH - Dashboard',
   })
   useStomt('dashboard')
   const [registeredWallets, setRegisteredWallets] = useState<Array<Wallet>>(() =>

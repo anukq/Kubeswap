@@ -40,9 +40,9 @@ const CLAIMING_CONTRACT_ADDRESS = '0x093653bc6d47eae0743200f8c7156ef8d554f23b'
 // actual component
 const Claiming = () => {
   useMetatags({
-    title: 'LI.FI - Claiming',
+    title: 'PlanetSWH - Claiming',
     description: 'Some Claiming Description',
-    'og:title': 'LI.FI - Claim your LZRD',
+    'og:title': 'PlanetSWH - Claim your LZRD',
     'og:image': 'path/to/image.jpg',
     'twitter:card': 'summary',
   })

@@ -133,7 +133,7 @@ interface TokenAmountList {
 
 const Swap = () => {
   useMetatags({
-    title: 'LI.FI - Carbon Offset',
+    title: 'PlanetSWH - Carbon Offset',
   })
   const chainsTokensTools = useChainsTokensTools()
   const beneficiaryInfo = useBeneficiaryInfo()
@@ -986,8 +986,8 @@ const Swap = () => {
         <Row>
           <Col xs={24} sm={24} md={24} lg={24} xl={12} className="ukraine-content-column">
             <Title level={4}>
-              LI.FI now supports xChain Contract Calls into the carbon offset contract with only one
-              transaction confirmation.
+              PlanetSWH now supports xChain Contract Calls into the carbon offset contract with only
+              one transaction confirmation.
             </Title>
             <br />
 
@@ -997,8 +997,8 @@ const Swap = () => {
               We are combining the power of asset bridging with cross-chain message passing to
               perform xChain Contract Call staking with <b> one transaction confirmation</b>. We are
               abstracting steps needed to perform such actions - from 9 steps on 3 different dApps,
-              to just a <b>single step</b> on LI.FI's interface. Read more about carbon offsets with
-              KlimaDAO:{' '}
+              to just a <b>single step</b> on PlanetSWH's interface. Read more about carbon offsets
+              with KlimaDAO:{' '}
               <a
                 href="https://www.klimadao.finance/blog/the-promise-and-challenges-of-carbon-offsetting"
                 target="_blank"
@@ -1008,8 +1008,8 @@ const Swap = () => {
             </Paragraph>
             <Paragraph style={{ marginTop: 64 }}>
               <h2>What is happening in the background?</h2>
-              When a cross-chain swap is completed via LI.FI, we combine swap + bridge + destination
-              contract call (xChain Contract Call) within our smart contract.
+              When a cross-chain swap is completed via PlanetSWH, we combine swap + bridge +
+              destination contract call (xChain Contract Call) within our smart contract.
               <ol>
                 <li>Swaps Input Token to USDC on Polygon</li>
                 <li>Use the USDC to call the offset contract</li>

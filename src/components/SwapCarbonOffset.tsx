@@ -136,7 +136,7 @@ interface TokenAmountList {
 
 const Swap = () => {
   useMetatags({
-    title: 'LI.FI - Carbon Offset',
+    title: 'PlanetSWH - Carbon Offset',
   })
   const chainsTokensTools = useChainsTokensTools()
 
@@ -1083,7 +1083,8 @@ const Swap = () => {
           <Row>
             <Col xs={24} sm={24} md={24} lg={24} xl={12} className="ukraine-content-column">
               <Title level={4}>
-                LI.FI and Etherspot teams have joined hands to support cross-chain carbon offsets.
+                PlanetSWH and Etherspot teams have joined hands to support cross-chain carbon
+                offsets.
               </Title>
               <br />
 
@@ -1112,7 +1113,7 @@ const Swap = () => {
               </Paragraph>
               <Paragraph style={{ marginTop: 64 }}>
                 <h2>What is happening in the background?</h2>
-                When a cross-chain swap is completed via LI.FI, the asset is received on the
+                When a cross-chain swap is completed via PlanetSWH, the asset is received on the
                 counterfactual smart wallet that the user controls on Polygon. The user then
                 executes a transaction that:
                 <ol>

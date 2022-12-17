@@ -7,7 +7,7 @@ import { useStomt } from '../services/stomt'
 
 function NotFoundPage() {
   useMetatags({
-    title: 'LI.FI - Not Found',
+    title: 'PlanetSWH - Not Found',
     status: 404,
   })
   useStomt('lifi')
