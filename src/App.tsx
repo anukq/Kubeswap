@@ -10,7 +10,6 @@ import { Link, Navigate, Route, Routes, useLocation } from 'react-router-dom'
 import DiscordIcon from './assets/icons/discordIcon'
 import { PoweredByLiFi } from './assets/Li.Fi/poweredByLiFi'
 import Carbon_Neutral_Protocol from './assets/misc/Carbon_Neutral_Protocol.png'
-import Claiming from './components/Claiming'
 import Dashboard from './components/Dashboard'
 import { DiscordPopup } from './components/DiscordPopup'
 import SwapCarbonOffsetEmbed from './components/EmbedViews/SwapCarbonOffsetEmbed'
@@ -187,14 +186,7 @@ function App() {
                     </div>
                   }
                 />
-                <Route
-                  path="/claiming"
-                  element={
-                    <div className="lifiWrap claim-page">
-                      <Claiming />
-                    </div>
-                  }
-                />
+
                 <Route
                   path="/swap-v1"
                   element={
