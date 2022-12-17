@@ -14,7 +14,7 @@
 .wordmark:hover,
 .wordmark:focus,
 .wordmark:active {
-  color: #3f49e1;
+  color: #e4bc89;
 }
 
 .logo {
@@ -62,7 +62,7 @@
 }
 
 .header-poweredBy:hover path {
-  fill: #3f49e1;
+  fill: #e4bc89;
 }
 
 /* global styles */
@@ -246,7 +246,7 @@
 }
 
 .ant-menu-item-danger a {
-  color: #3f49e1 !important;
+  color: #e4bc89 !important;
 }
 
 @media only screen and (max-width: 1060px) {

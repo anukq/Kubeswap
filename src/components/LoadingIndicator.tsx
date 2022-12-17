@@ -9,7 +9,7 @@ function LoadingIndicator({ size = 'default' }: LoadingIndicatorProps) {
   const element = useRef<HTMLDivElement | null>(null)
 
   const bubbleStyle: React.CSSProperties = {
-    background: '#3f49e1',
+    background: '#e4bc89',
     display: 'inline-block',
     margin: size === 'default' ? 10 : 5,
     marginBottom: 0,

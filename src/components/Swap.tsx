@@ -68,7 +68,9 @@ export const Swap = () => {
       languages: {
         default: 'en',
       },
-      appearance: 'dark',
+
+      appearance: 'light',
+      hiddenUI: [HiddenUI.Appearance, HiddenUI.PoweredBy],
     }
   }, [account.address, account.signer, disconnect, usedWallet?.name])
 

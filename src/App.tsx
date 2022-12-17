@@ -116,14 +116,14 @@ function App() {
                 width: '100%',
                 padding: 0,
                 top: 0,
-                background: adjustNavbar ? '#6247AA' : 'transparent',
+                background: adjustNavbar ? '#53a34e' : 'transparent',
               }}>
               <Row className="site-layout-menu">
                 {/* Menu */}
                 <Col xs={24} sm={24} md={14} lg={14} xl={14}>
                   <div className="header-linkWrapper">
                     <Link to="https://planetsomewhere.xyz" className="wordmark">
-                      Planetsomewhere.xyz
+                      PlanetSWH{' '}
                     </Link>
                     <a
                       className="header-poweredBy"

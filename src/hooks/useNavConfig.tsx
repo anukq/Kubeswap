@@ -26,7 +26,7 @@ export const useNavConfig = () => {
             key: '/claiming',
           }
         : null,
-      { label: <Link to="/dashboard">Dashboard</Link>, key: '/dashboard' },
+      { label: <Link to="/dashboard">Balances</Link>, key: '/dashboard' },
       {
         label: (
           <a href="https://docs.google.com/" target="_blank" rel="nofollow noreferrer">
@@ -125,6 +125,14 @@ export const useNavConfig = () => {
             label: (
               <a href="https://twitter.com/planet_swh" target="_blank" rel="nofollow noreferrer">
                 Twitter
+              </a>
+            ),
+            key: 'twitter',
+          },
+          {
+            label: (
+              <a href="https://telegram.com/planet_swh" target="_blank" rel="nofollow noreferrer">
+                Telegram
               </a>
             ),
             key: 'twitter',
