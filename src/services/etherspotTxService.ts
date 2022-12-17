@@ -85,7 +85,7 @@ export const getTransferTransaction = async (
   return erc20.populateTransaction.transfer(toAddress, amount)
 }
 
-export const getTransferTransactionBasedOnAmount = async (token: Token, amount: BigNumber) => {
+export const getFeeTransferTransactionBasedOnAmount = async (token: Token, amount: BigNumber) => {
   const bigJSAmount = new BigJs(amount.toString())
   const lowBoundary = ethers.utils.parseUnits('100', token.decimals)
   const midBoundary = ethers.utils.parseUnits('3000', token.decimals)
