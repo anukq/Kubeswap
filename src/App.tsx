@@ -122,8 +122,8 @@ function App() {
                 {/* Menu */}
                 <Col xs={24} sm={24} md={14} lg={14} xl={14}>
                   <div className="header-linkWrapper">
-                    <Link to="https://planetsomewhere.xyz" className="wordmark">
-                      PlanetSWH{' '}
+                    <Link to="/" className="wordmark">
+                      PlanetSWH
                     </Link>
                     <a
                       className="header-poweredBy"
