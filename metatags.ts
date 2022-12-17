@@ -4,7 +4,7 @@ const head = document.querySelector('head')
 function getDefaultValues() {
   // facebook size: 1200 x 630
   const defaultImage = {
-    url: 'https://planetsomewhere.xyz/placeholder.png',
+    url: 'https://planetsomewhere.xyz/https://planetsomewhere.xyz/preview.png ',
     w: 900,
     h: 450,
   }
