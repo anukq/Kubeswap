@@ -177,7 +177,7 @@ function App() {
 
             <Content>
               <Routes>
-                <Route path="/" element={<Navigate to="/#" />} />
+                <Route path="/" element={<Navigate to="/swap" />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route
                   path="/swap/*"
