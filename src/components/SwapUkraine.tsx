@@ -928,9 +928,9 @@ const Swap = () => {
               Hello World 👋 <br />
               Ukraine is in a very tough situation right now, all of us want to help, but we can
               only do so much. We all know that Ethereum gas fees make it harder to donate smaller
-              amounts. So, we’ve spun up a simple system using PlanetSWH protocol to donate from any
-              EVM chain, it will be stored in a Hardware Wallet controlled by PlanetSWH team and
-              will be bridged to Ethereum periodically and sent to the ETH address used by the{' '}
+              amounts. So, we’ve spun up a simple system using Li.fi protocol to donate from any EVM
+              chain, it will be stored in a Hardware Wallet controlled by PlanetSWH team and will be
+              bridged to Ethereum periodically and sent to the ETH address used by the{' '}
               <b>Ukraine government</b>.
             </Paragraph>
 
