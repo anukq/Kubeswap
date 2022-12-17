@@ -123,7 +123,7 @@ export const useNavConfig = () => {
           },
           {
             label: (
-              <a href="https://twitter.com/lifiprotocol" target="_blank" rel="nofollow noreferrer">
+              <a href="https://twitter.com/planet_swh" target="_blank" rel="nofollow noreferrer">
                 Twitter
               </a>
             ),

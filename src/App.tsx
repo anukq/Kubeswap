@@ -280,7 +280,7 @@ function App() {
             <div className="lifi-content-social-links">
               <a
                 className="icon-link"
-                href="https://twitter.com/lifiprotocol"
+                href="https://twitter.com/planet_swh"
                 target="_blank"
                 rel="nofollow noreferrer">
                 <TwitterOutlined />

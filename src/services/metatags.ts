@@ -22,7 +22,7 @@ function getDefaultValues() {
     },
     tags: {
       'twitter:card': 'summary_large_image',
-      'twitter:site': '@lifiprotocol',
+      'twitter:site': '@planet_swh',
     },
     noIndex: false,
     statusCode: 200,
