@@ -1,6 +1,7 @@
 import './Claiming.css'
 
 import { CheckOutlined, LoadingOutlined, WarningOutlined } from '@ant-design/icons'
+import ConnectButton from '@web3-react/ConnectButton'
 import { Button } from 'antd'
 import { Content } from 'antd/lib/layout/layout'
 import { ethers } from 'ethers'
@@ -14,7 +15,6 @@ import { useMetatags } from '../hooks/useMetatags'
 import { useWallet } from '../providers/WalletProvider'
 import { formatTokenAmount } from '../services/utils'
 import { ChainId, Token } from '../types'
-import ConnectButton from './web3/ConnectButton'
 
 type ClaimingState =
   | 'claimQualified'
