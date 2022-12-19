@@ -70,7 +70,6 @@ export const Swap = () => {
       },
 
       appearance: 'light',
-      hiddenUI: [HiddenUI.Appearance, HiddenUI.PoweredBy],
     }
   }, [account.address, account.signer, disconnect, usedWallet?.name])
 

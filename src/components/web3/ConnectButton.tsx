@@ -44,7 +44,7 @@ function ConnectButton({ style, className, size = 'middle' }: ConnectButtonPropT
       <Button
         className={className}
         style={{
-          ...{ borderRadius: '6px', background: '#3F49FF', borderColor: '#3F49FF' },
+          ...{ borderRadius: '6px', background: '#2e933C', borderColor: '#FFF' },
           ...style,
         }}
         size={size}
