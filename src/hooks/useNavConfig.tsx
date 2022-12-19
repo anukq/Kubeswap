@@ -29,7 +29,7 @@ export const useNavConfig = () => {
       { label: <Link to="/dashboard">Balances</Link>, key: '/dashboard' },
       {
         label: (
-          <a href="https://docs.google.com/" target="_blank" rel="nofollow noreferrer">
+          <a href="https://forms.gle/WZHzcGf6HSd8duXk6" target="_blank" rel="nofollow noreferrer">
             Careers
           </a>
         ),
@@ -96,7 +96,7 @@ export const useNavConfig = () => {
           {
             label: (
               <a href="https://medium.com/" target="_blank" rel="nofollow noreferrer">
-                Blog
+                News
               </a>
             ),
             key: 'blog',
@@ -143,7 +143,10 @@ export const useNavConfig = () => {
             children: [
               {
                 label: (
-                  <a href="https://google.com" target={'_blank'} rel="noreferrer">
+                  <a
+                    href="https://docs.google.com/document/d/1-t6Mv1UmOgLPHiN7ALbcQ4NzCzb5UrG7qeV_3EdzUl8/"
+                    target={'_blank'}
+                    rel="noreferrer">
                     Privacy Policy
                   </a>
                 ),
@@ -162,7 +165,10 @@ export const useNavConfig = () => {
               },
               {
                 label: (
-                  <a href="https://google.com/" target={'_blank'} rel="noreferrer">
+                  <a
+                    href="https://docs.google.com/document/d/1-t6Mv1UmOgLPHiN7ALbcQ4NzCzb5UrG7qeV_3EdzUl8"
+                    target={'_blank'}
+                    rel="noreferrer">
                     Terms & Conditions
                   </a>
                 ),

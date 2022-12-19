@@ -111,27 +111,23 @@ function App() {
           <Layout>
             <Header
               style={{
-                position: adjustNavbar ? 'fixed' : 'absolute',
+                position: adjustNavbar ? 'fixed' : 'fixed',
                 zIndex: 900,
                 width: '100%',
                 padding: 0,
-                top: 0,
-                background: adjustNavbar ? '#53a34e' : 'transparent',
+                top: 10,
+                background: adjustNavbar ? '#2e933C' : 'transparent',
               }}>
               <Row className="site-layout-menu">
                 {/* Menu */}
                 <Col xs={24} sm={24} md={14} lg={14} xl={14}>
                   <div className="header-linkWrapper">
                     <Link to="/" className="wordmark">
+                      <span>
+                        <img src="./img/logo.png" width="70" height="70" className="logo" />
+                      </span>
                       PlanetSWH
                     </Link>
-                    <a
-                      className="header-poweredBy"
-                      href="https://li.fi/"
-                      target="_blank"
-                      rel="nofollow noreferrer">
-                      <PoweredByLiFi />
-                    </a>
                   </div>
                   <Menu
                     items={navConfig}

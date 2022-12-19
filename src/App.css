@@ -3,7 +3,7 @@
 
 .wordmark {
   float: left;
-  color: black;
+  color: #fff;
   font-size: 22px;
   line-height: 42px;
   margin-right: 60px;
@@ -14,7 +14,7 @@
 .wordmark:hover,
 .wordmark:focus,
 .wordmark:active {
-  color: #e4bc89;
+  color: #3f49e1;
 }
 
 .logo {
@@ -62,7 +62,7 @@
 }
 
 .header-poweredBy:hover path {
-  fill: #e4bc89;
+  fill: #3f49e1;
 }
 
 /* global styles */
@@ -76,7 +76,7 @@
 }
 
 .site-layout .site-layout-background {
-  background: #fff;
+  background: white;
 }
 
 .ant-layout {
@@ -107,7 +107,7 @@
 }
 
 .ant-menu.ant-menu-sub.ant-menu-vertical {
-  background-color: white !important;
+  background-color: #23933C !important;
   opacity: 1;
   z-index: 999;
 }
@@ -246,7 +246,7 @@
 }
 
 .ant-menu-item-danger a {
-  color: #e4bc89 !important;
+  color: #3f49e1 !important;
 }
 
 @media only screen and (max-width: 1060px) {

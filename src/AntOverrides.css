@@ -8,15 +8,15 @@ Global overrides of ant design styles
 /* Buttons */
 .ant-btn-primary {
   font-family: 'GT America' !important;
-  background-color: #e4bc89;
-  border-color: #e4bc89;
+  background-color: #3f49e1;
+  border-color: #3f49e1;
 }
 
 .ant-btn-primary:hover,
 .ant-btn-primary:focus,
 .ant-btn-primary:active {
-  background-color: #caa87b;
-  border-color: #caa87b;
+  background-color: #6069e6;
+  border-color: #6069e6;
 }
 
 .ant-btn-ghost {
@@ -29,13 +29,13 @@ Global overrides of ant design styles
 } */
 .ant-tabs-tab:not(.ant-tabs-tab-disabled),
 .ant-tabs-tab .ant-tabs-tab-btn:hover {
-  color: #e4bc89 !important;
+  color: #3f49e1 !important;
 }
 .ant-tabs-tab-active .ant-tabs-tab-btn {
-  color: #e4bc89 !important;
+  color: #3f49e1 !important;
 }
 .ant-tabs-ink-bar {
-  background: #e4bc89 !important;
+  background: #3f49e1 !important;
 }
 @media only screen and (max-width: 575px) {
   .ant-tabs-nav-wrap {
@@ -90,7 +90,7 @@ Global overrides of ant design styles
 .ant-menu-submenu-title:active,
 .ant-menu-submenu::after,
 .ant-menu-item-active a {
-  color: #e4bc89 !important;
+  color: #fff !important;
   border: none !important;
 }
 .ant-menu-item-selected:hover::after,
@@ -121,10 +121,10 @@ Global overrides of ant design styles
 }
 
 .ant-timeline-item-head {
-  border-color: #e4bc89 !important;
-  color: #e4bc89 !important;
+  border-color: #3f49e1 !important;
+  color: #3f49e1 !important;
 }
 .ant-timeline-item-tail {
-  border-color: #e4bc89 !important;
-  color: #e4bc89 !important;
+  border-color: #3f49e1 !important;
+  color: #3f49e1 !important;
 }
