@@ -42,7 +42,8 @@
 
 @media only screen and (max-width: 480px) {
   .wordmark span {
-    display: none;
+    display: all;
+    
   }
 
   .logo {

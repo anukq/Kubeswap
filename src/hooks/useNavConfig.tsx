@@ -95,7 +95,7 @@ export const useNavConfig = () => {
           },
           {
             label: (
-              <a href="https://medium.com/" target="_blank" rel="nofollow noreferrer">
+              <a href="https://mirror.xyz/" target="_blank" rel="nofollow noreferrer">
                 News
               </a>
             ),

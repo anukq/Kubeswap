@@ -111,12 +111,12 @@ function App() {
           <Layout>
             <Header
               style={{
-                position: adjustNavbar ? 'fixed' : 'fixed',
+                position: adjustNavbar ? 'fixed' : 'absolute',
                 zIndex: 900,
                 width: '100%',
-                padding: 0,
-                top: 10,
-                background: adjustNavbar ? '#2e933C' : 'transparent',
+                padding: 10,
+                top: 20,
+                background: adjustNavbar ? '#2e933C' : 'fixed',
               }}>
               <Row className="site-layout-menu">
                 {/* Menu */}
